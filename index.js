@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}))
 app.use(cors());
 mongoose.set("strictQuery",true);
-mongoose.connect("mongodb+srv://yashsahai:12345@cluster0.vrmwday.mongodb.net/restaurant");
+mongoose.connect("mongodb+srv://yash:asdfghjkl@cluster0.vzuljap.mongodb.net/");
 var db=mongoose.connection;
 db.on("open",()=>console.log("Connected"))
 db.on("error",()=>console.log("Not Connected"))
